@@ -1,0 +1,94 @@
+.btn--white {
+    display: inline-block;
+    background: $white;
+    border: 1px solid $black;
+    color: $black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    margin: 25px 5px;
+    
+    &.btn--white_size_m {
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn--orange {
+    display: inline-block;
+    background: $orange;
+    border: 1px solid $orange;
+    text-decoration: none;
+    color: $white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    margin: 25px 5px;
+    
+    &.btn--orange_size_m {
+        width: 160px;
+        height: 60px;
+        text-align: center;
+        padding-top: 7px;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn--all {
+    display: block;
+    background: $orange;
+    border: 1px solid $orange;
+    color: $white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    width: 194px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn--black {
+    display: block;
+    background: $black;
+    text-decoration: none;
+    color: $white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
